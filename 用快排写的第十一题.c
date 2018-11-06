@@ -1,5 +1,5 @@
 #include<stdio.h>
-void sort(int *cf, int left, int right)
+void sort(int cf, int left, int right)
 {
     if(left >= right)
     {
