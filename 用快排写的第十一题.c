@@ -1,5 +1,5 @@
 #include<stdio.h>
-void sort(int *cf, int left, int right)
+void sort(int cf, int left, int right)
 {
     if(left >= right)
     {
@@ -37,7 +37,7 @@ int main()
     for(i = 0; i < len; i ++) {
         scanf("%ld", &s[i]);
     }
-    void sort(int *cf, int left, int right);
+    void sort(int cf, int left, int right);
     for(i = len; i < n; i ++) {
         scanf("%ld", &x);
         if(x > s[len-1]) {
